@@ -1,0 +1,7 @@
+name: DrupiTestAddon
+api: "1.0.0"
+main: hundeklemmen.addon.main
+author: Hundeklemmen
+version: "1.0"
+description: Drupi Addon
+depend: [Drupi]
