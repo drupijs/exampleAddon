@@ -17,17 +17,15 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
     </repositories>
     <dependencies>
         <!-- Drupi API Start -->
         <dependency>
-            <groupId>com.github.drupijs.Drupi-JS</groupId>
-            <artifactId>drupi</artifactId>
-            <version>LATEST</version>
+            <groupId>drupi.xyz</groupId>
+            <artifactId>Spigot-Legacy</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/Drupi-Spigot-Legacy.jar</systemPath>
         </dependency>
         <!-- Drupi API End -->
         <dependency>
@@ -42,13 +40,6 @@
             <artifactId>bukkit</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20090211</version>
-            <type>jar</type>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

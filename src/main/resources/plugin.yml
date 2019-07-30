@@ -1,6 +1,6 @@
 name: DrupiTestAddon
 api: "1.0.0"
-main: hundeklemmen.addon.main
+main: hundeklemmen.addon.MainPlugin
 author: Hundeklemmen
 version: "1.0"
 description: Drupi Addon
